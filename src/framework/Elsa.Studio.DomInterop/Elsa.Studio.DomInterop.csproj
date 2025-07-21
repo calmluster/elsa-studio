@@ -6,18 +6,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="wwwroot\"/>
+        <Folder Include="wwwroot\" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components"/>
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
-        <PackageReference Include="Microsoft.JSInterop"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+        <PackageReference Include="Microsoft.JSInterop" />
     </ItemGroup>
 
     <ItemGroup>
         <!-- Prevents build error on GH Actions -->
-        <Content Remove="ClientLib\package-lock.json;ClientLib\package.json;ClientLib\tsconfig.json"/>
+        <Content Remove="ClientLib\package-lock.json;ClientLib\package.json;ClientLib\tsconfig.json" />
         <!--        <None Include="ClientLib\package-lock.json;ClientLib\package.json;ClientLib\tsconfig.json">-->
         <!--            <CopyToOutputDirectory>Never</CopyToOutputDirectory>-->
         <!--            <CopyToPublishDirectory>Never</CopyToPublishDirectory>-->
